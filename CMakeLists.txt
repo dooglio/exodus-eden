@@ -53,8 +53,13 @@ configure_file( ${CMAKE_SOURCE_DIR}/debian/postrm.in   ${CMAKE_SOURCE_DIR}/debia
 
 install(
     PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer.sh
-    DESTINATION bin
+    DESTINATION share/exodus
     RENAME exodus-installer
+)
+
+install(
+    FILES ${CMAKE_SOURCE_DIR}/LICENSE
+    DESTINATION share/doc/exodus
 )
 
 install(
