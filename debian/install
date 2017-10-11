@@ -1,1 +1,1 @@
-debian/tmp/usr/share/exodus/* opt/exodus
+debian/exodus/usr/share/exodus/* opt/exodus
