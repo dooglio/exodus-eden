@@ -1,8 +1,6 @@
-exodus (1.35.5) xenial; urgency=high
+exodus-eden (1.35.6) xenial; urgency=high
 
   * Inital package release.
-  * WALLET: Under certain conditions, if Exodus couldn't connect to
-    Etherscan and a rescan of the wallet was performed, the balance could reset to 0.
 
  -- R. Douglas Barbieri <doug@dooglio.net>  Tue, 10 Oct 2017 12:17:11 -0700
 

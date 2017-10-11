@@ -3,9 +3,9 @@
 # Source debconf library.
 . /usr/share/debconf/confmodule
 
-if [ -e /usr/share/exodus/exodus-installer ]
+if [ -e /usr/share/exodus/exodus-installer-eden ]
 then
-	/usr/share/exodus/exodus-installer install @EXODUS_VERSION@
+	/usr/share/exodus/exodus-installer-eden install @EXODUS_VERSION@
 fi
 
 #DEBHELPER#

@@ -1,5 +1,5 @@
-# exodus-debian-packager
-This contains the necessary code to create an Ubuntu Debian package for the Exodus GUI
+# exodus-eden-debian-packager
+This contains the necessary code to create an Ubuntu Debian package for the Exodus Eden GUI
 
 This archive has a debian folder, and CMake is required to create a working makefile.
 The version is parsed from the debian/changelog via CMake, and this helps construct

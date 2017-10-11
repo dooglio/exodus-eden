@@ -5,7 +5,7 @@
 
 if [ "$1" = "purge" ]
 then
-    rm -f $HOME/Downloads/exodus-linux-x64-@EXODUS_VERSION@.zip
+    rm -f $HOME/Downloads/exodus-eden-linux-x64-@EXODUS_VERSION@.zip
 fi
 
 #DEBHELPER#

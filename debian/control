@@ -1,4 +1,4 @@
-Source: exodus
+Source: exodus-eden
 Priority: extra
 Maintainer: R. Douglas Barbieri <doug@dooglio.net>
 Build-Depends: cmake, debhelper, dpkg-dev
@@ -8,14 +8,16 @@ Homepage: http://exodus.io
 Vcs-Git: https://github.com/exodusmovement
 Vcs-Browser: https://github.com/exodusmovement
 
-Package: exodus
+Package: exodus-eden
 Section: x11
 Architecture: amd64
 Depends: wget, unzip, ${misc:Depends}
-Description: Exodus is the first desktop multi-asset wallet with ShapeShift built in.
- Live charts turn your diversified portfolio into a bottom line, a seamless, one click,
- ShapeShift experience, and multi-asset wallet gives you control over your keys
- beautiful live charts, and a personalized user experience.
+Suggests: exodus
+Description: Exodus Eden is designed for advanced Exodus users to maintain greater control over their wealth. 
+ If you’re willing to roll up your sleeves, Exodus Eden is a cutting edge
+ release with new features and more assets than the official version of Exodus
+ including Bitcoin Cash, Factom, Ethereum Classic, Ripple and many ERC20
+ tokens.
  This package provides the Exodus UI client. 
 
 # vim: ts=4 sw=4 et

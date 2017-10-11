@@ -7,7 +7,7 @@
 ##===============================================================================
 cmake_minimum_required( VERSION 3.5 )
 
-project( exodus )
+project( exodus-eden )
 
 find_program( DPKG_PARSECHANGELOG dpkg-parsechangelog )
 if( ${DPKG_PARSECHANGELOG} STREQUAL ${DPKG_PARSECHANGELOG}-NOTFOUND )
@@ -47,28 +47,28 @@ endif()
 
 set( EXODUS_VERSION ${major_version}.${minor_version}.${patch_version} )
 
-configure_file( ${CMAKE_SOURCE_DIR}/exodus.desktop.in  ${CMAKE_BINARY_DIR}/exodus.desktop  )
-configure_file( ${CMAKE_SOURCE_DIR}/debian/postinst.in ${CMAKE_SOURCE_DIR}/debian/postinst )
-configure_file( ${CMAKE_SOURCE_DIR}/debian/postrm.in   ${CMAKE_SOURCE_DIR}/debian/postrm    )
+configure_file( ${CMAKE_SOURCE_DIR}/exodus-eden.desktop.in ${CMAKE_BINARY_DIR}/exodus-eden.desktop )
+configure_file( ${CMAKE_SOURCE_DIR}/debian/postinst.in     ${CMAKE_SOURCE_DIR}/debian/postinst     )
+configure_file( ${CMAKE_SOURCE_DIR}/debian/postrm.in       ${CMAKE_SOURCE_DIR}/debian/postrm       )
 
 install(
-    PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer.sh
+    PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer-eden.sh
     DESTINATION share/exodus
-    RENAME exodus-installer
+    RENAME exodus-installer-eden
 )
 
 install(
     FILES ${CMAKE_SOURCE_DIR}/LICENSE
-    DESTINATION share/doc/exodus
+    DESTINATION share/doc/exodus-eden
 )
 
 install(
-    FILES ${CMAKE_BINARY_DIR}/exodus.desktop
+    FILES ${CMAKE_BINARY_DIR}/exodus-eden.desktop
     DESTINATION share/applications
 )
 
 install(
-    FILES ${CMAKE_SOURCE_DIR}/exodus.png
+    FILES ${CMAKE_SOURCE_DIR}/exodus-eden.png
     DESTINATION share/icons
 )
 

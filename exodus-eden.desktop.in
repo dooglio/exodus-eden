@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Version=1.0
 Type=Application
-Name=Exodus @EXODUS_VERSION@
-Icon=exodus.png
-Exec=/opt/exodus/Exodus
+Name=Exodus Eden @EXODUS_VERSION@
+Icon=exodus-eden.png
+Exec=/opt/exodus/ExodusEden
 StartupNotify=false
-StartupWMClass=Exodus
+StartupWMClass=ExodusEden
 OnlyShowIn=Unity;
 X-UnityGenerated=true
