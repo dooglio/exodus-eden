@@ -8,6 +8,9 @@ then
 	/usr/share/exodus/exodus-installer-eden install @EXODUS_VERSION@
 fi
 
+update-desktop-database
+xdg-desktop-menu install /usr/share/applications/exodus-eden.desktop --novendor
+
 #DEBHELPER#
 
 # vim: ts=4 sw=4 et
