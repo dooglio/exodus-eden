@@ -47,8 +47,9 @@ endif()
 
 set( EXODUS_VERSION ${major_version}.${minor_version}.${patch_version} )
 
-configure_file( ${CMAKE_SOURCE_DIR}/exodus.desktop.in ${CMAKE_BINARY_DIR}/exodus.desktop   )
+configure_file( ${CMAKE_SOURCE_DIR}/exodus.desktop.in  ${CMAKE_BINARY_DIR}/exodus.desktop  )
 configure_file( ${CMAKE_SOURCE_DIR}/debian/postinst.in ${CMAKE_SOURCE_DIR}/debian/postinst )
+configure_file( ${CMAKE_SOURCE_DIR}/debian/postrm.in   ${CMAKE_SOURCE_DIR}/debian/postrm    )
 
 install(
     PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer.sh

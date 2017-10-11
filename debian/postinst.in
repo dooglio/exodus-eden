@@ -1,7 +1,13 @@
-#!/bin/bash
+#!/bin/sh -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
 
 if [ -e /usr/bin/exodus-installer ]
 then
 	/usr/bin/exodus-installer install @EXODUS_VERSION@
 fi
 
+#DEBHELPER#
+
+# vim: ts=4 sw=4 et
