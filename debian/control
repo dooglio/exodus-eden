@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/exodusmovement
 Package: exodus
 Section: x11
 Architecture: amd64
-Depends: ${misc:Depends}
+Depends: wget, unzip, ${misc:Depends}
 Description: Exodus is the first desktop multi-asset wallet with ShapeShift built in.
  Live charts turn your diversified portfolio into a bottom line, a seamless, one click,
  ShapeShift experience, and multi-asset wallet gives you control over your keys

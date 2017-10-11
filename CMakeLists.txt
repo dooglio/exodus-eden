@@ -47,27 +47,23 @@ endif()
 
 set( EXODUS_VERSION ${major_version}.${minor_version}.${patch_version} )
 
-set( DOWNLOAD_BASE_URL "https://exodusbin.azureedge.net/releases" CACHE STRING "Base URL for downloading zip files" )
-set( PROCESSOR         "x64"                                      CACHE STRING "Processor type"                     )
-
-set( DOWNLOAD_URL      ${DOWNLOAD_BASE_URL}/exodus-linux-${PROCESSOR}-${EXODUS_VERSION}.zip    )
-set( PACKAGE_FILENAME  ${CMAKE_BINARY_DIR}/package_target.zip                                  )
-
-if( NOT EXISTS ${PACKAGE_FILENAME} )
-    file( DOWNLOAD ${DOWNLOAD_URL} ${PACKAGE_FILENAME} SHOW_PROGRESS )
-endif()
-
-set( UNPACK_DIR ${CMAKE_BINARY_DIR}/Exodus-linux-${PROCESSOR} )
-if( NOT EXISTS ${UNPACK_DIR} )
-    execute_process(
-        COMMAND cmake -E tar xvf ${PACKAGE_FILENAME}
-        WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
-    )
-endif()
+configure_file( ${CMAKE_SOURCE_DIR}/exodus.desktop.in ${CMAKE_BINARY_DIR}/exodus.desktop   )
+configure_file( ${CMAKE_SOURCE_DIR}/debian/postinst.in ${CMAKE_SOURCE_DIR}/debian/postinst )
 
 install(
-    DIRECTORY ${UNPACK_DIR}/
-    DESTINATION share/exodus
+    PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer.sh
+    DESTINATION bin
+    RENAME exodus-installer
+)
+
+install(
+    FILES ${CMAKE_BINARY_DIR}/exodus.desktop
+    DESTINATION share/applications
+)
+
+install(
+    FILES ${CMAKE_SOURCE_DIR}/exodus.png
+    DESTINATION share/icons
 )
 
 ## vim: ts=4 sw=4 et

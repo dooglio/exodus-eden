@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -e /usr/bin/exodus-installer ]
+then
+	/usr/bin/exodus-installer install @EXODUS_VERSION@
+fi
+
