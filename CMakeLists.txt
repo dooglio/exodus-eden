@@ -52,7 +52,7 @@ configure_file( ${CMAKE_SOURCE_DIR}/debian/postinst.in     ${CMAKE_SOURCE_DIR}/d
 configure_file( ${CMAKE_SOURCE_DIR}/debian/postrm.in       ${CMAKE_SOURCE_DIR}/debian/postrm       )
 
 install(
-    PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer-eden.sh
+    PROGRAMS ${CMAKE_SOURCE_DIR}/bin/exodus-installer.sh
     DESTINATION share/exodus
     RENAME exodus-installer-eden
 )
