@@ -1,3 +1,0 @@
-[submodule "bin"]
-	path = bin
-	url = git@github.com:dooglio/exodus-linux-installer.git
