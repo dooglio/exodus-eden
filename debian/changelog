@@ -1,3 +1,9 @@
+exodus-eden (1.36.0) xenial; urgency=high
+
+  * New release.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Sat, 14 Oct 2017 19:44:18 -0700
+
 exodus-eden (1.35.6) xenial; urgency=high
 
   * Inital package release.
