@@ -34,6 +34,7 @@ list( GET VERSION 1 minor_version  )
 list( GET VERSION 2 _patch_version )
 
 string( REPLACE "-"  " " temp_ver ${_patch_version} )
+separate_arguments( temp_ver )
 list( LENGTH temp_ver temp_ver_len )
 if( ${temp_ver_len} EQUAL 2 )
     #
