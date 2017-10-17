@@ -1,3 +1,10 @@
+exodus-eden (1.36.0-1) xenial; urgency=high
+
+  * Updated packager to reflect a superior method of archiving against SHA
+    signatures, using fingerprint instead of names.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Mon, 16 Oct 2017 19:43:54 -0700
+
 exodus-eden (1.36.0) xenial; urgency=high
 
   * New release.
