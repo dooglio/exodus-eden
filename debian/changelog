@@ -1,3 +1,9 @@
+exodus-eden (1.37.0-1) xenial; urgency=high
+
+  * New release.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 27 Oct 2017 08:34:29 -0700
+
 exodus-eden (1.36.0-2) xenial; urgency=high
 
   * Fixed error in CMakeLists.txt which was not extracting the debian version
