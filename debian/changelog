@@ -1,3 +1,9 @@
+exodus-eden (1.37.1-2) xenial; urgency=high
+
+  * Forgot submodule.
+
+ -- Doug Barbieri <doug@garibaldi>  Fri, 27 Oct 2017 20:07:52 -0700
+
 exodus-eden (1.37.1-1) xenial; urgency=high
 
   * Export bug fixed.
