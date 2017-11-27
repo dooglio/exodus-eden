@@ -1,3 +1,9 @@
+exodus-eden (1.39.3-1) xenial; urgency=high
+
+  * Huge release, "the big one."
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Mon, 27 Nov 2017 08:47:21 -0800
+
 exodus-eden (1.38.2-1) xenial; urgency=high
 
   * New release.
