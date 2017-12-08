@@ -1,3 +1,9 @@
+exodus-eden (1.40.0-1) xenial; urgency=high
+
+  * Upgrade to keep up with Exodus 1.40.0.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 08 Dec 2017 09:12:37 -0800
+
 exodus-eden (1.39.3-1) xenial; urgency=high
 
   * Huge release, "the big one."
