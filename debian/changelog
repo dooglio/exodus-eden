@@ -1,3 +1,9 @@
+exodus-eden (1.42.0-1) xenial; urgency=high
+
+  * Vertcoin integration.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Sun, 07 Jan 2018 07:34:16 -0800
+
 exodus-eden (1.41.0-1) xenial; urgency=high
 
   * Wallet: Exodus now has additional safety checks for file integrity on launch.
