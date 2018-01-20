@@ -1,6 +1,7 @@
-exodus-eden (1.43.2-1) xenial; urgency=high
+exodus-eden (1.43.2-2) xenial; urgency=high
 
   * Up to date with Exodus 1.43.2
+  * Added warning and user agreement templates.
 
  -- R. Douglas Barbieri <doug@dooglio.net>  Sat, 20 Jan 2018 13:26:27 -0800
 
