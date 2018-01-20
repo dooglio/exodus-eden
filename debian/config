@@ -1,0 +1,28 @@
+#!/bin/sh -e
+#
+
+#DEBHELPERS#
+
+. /usr/share/debconf/confmodule
+
+#if test -n "$DEBIAN_SCRIPT_DEBUG"
+#then
+#    set -v -x
+#    DEBIAN_SCRIPT_TRACE=1
+#fi
+#${DEBIAN_SCRIPT_TRACE:+ echo "#42#DEBUG# RUNNING $0 $*" 1>&2 }
+
+if test "$1" = "configure"
+then
+    db_input critical warning || true
+    db_go
+
+    db_input critical agreement || true
+    db_go
+    db_get agreement
+    if test "$RET" != "I Agree"
+    then
+      exit 1
+    fi
+fi
+

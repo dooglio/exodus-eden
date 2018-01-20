@@ -1,0 +1,27 @@
+Template: warning
+Type: note
+Description: Exodus Eden is Experimental, Unsupported Software!
+  In order to install Exodus Eden, you must agree to the following terms:
+  * You promise to backup your 12-word phrase, and keep it safe, in case anything
+    goes wrong with Eden.
+  * Your only source of help will be from other Eden users gathering in the Exodus
+    Public Slack in the #-eden- channel or on the unofficial Exodus Reddit.
+  * You understand Exodus Eden is early-access software and you may experience problems
+    with wallet balances, transactions and things are likely to break.
+  * You understand Exodus Eden is for advanced users only and accept all risk with
+    using untested software to manage your digital assets.
+  * You understand if there is a problem with Exodus Eden you will need to reach out
+    to the community to research your own workarounds or solutions until Exodus releases a new update to fix the problem.
+  * You understand the official Exodus support team will not be able to help you if
+    anything goes wrong with Exodus Eden.
+
+Template: agreement
+Type: select
+Description: Mandatory User Agreement
+  I have read and agree to all of the above disclaimers. I also accept all
+  risk with my digital assets and understand Exodus Eden is for
+  advanced users only. I also understand there maybe problems with wallet
+  balances, transactions and things are likely to break. I also understand I
+  will NOT be able to get help with Exodus Eden from the official Exodus
+  support team if things are not working.
+Choices: I Agree, I Don't Agree
