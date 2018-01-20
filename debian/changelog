@@ -1,3 +1,9 @@
+exodus-eden (1.43.2-1) xenial; urgency=high
+
+  * Up to date with Exodus 1.43.2
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Sat, 20 Jan 2018 13:26:27 -0800
+
 exodus-eden (1.43.1-1) xenial; urgency=high
 
   * General 1.43.1 release. Includes Digibyte.
