@@ -1,3 +1,14 @@
+exodus-eden (1.43.4-1) xenial; urgency=high
+
+  * Our security team has been hard at work behind the scenes and discovered
+    more safety and security precautions to protect your assets. A new version
+    of Exodus has been released immediately ( Version 1.43.4 ) with fixes and
+    security upgrades in place. This security patch was focused on protocols
+    used in Exodus dependencies. For all non-technical, normal users you can
+    just upgrade as part of your regular security practice.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Tue, 23 Jan 2018 19:11:21 -0800
+
 exodus-eden (1.43.2-2) xenial; urgency=high
 
   * Up to date with Exodus 1.43.2
