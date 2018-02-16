@@ -1,3 +1,15 @@
+exodus-eden (1.45.0-1) xenial; urgency=high
+
+  * Wallet: Added Vertcoin (VTC). Upgrade to version 1.45.0, then turn on Vertcoin
+    in Settings > Assets to send, receive and exchange Vertcoin (VTC).
+  * Settings: You can now choose a preferred portfolio sorting order between
+    Balance (High to Low) or traditional Alphabetical.
+  * Additional Ethereum Assets added to Settings > Assets.
+  * Additional cleanup in setting section for assets with long descriptions.
+  * Advanced: Fixed an edge case handling importing uncompressed private keys.
+
+ -- Doug Barbieri <doug@exodus.io>  Thu, 15 Feb 2018 22:21:23 -0800
+
 exodus-eden (1.44.1-1) xenial; urgency=high
 
   * Fixed Bitcoin Gold claim regression.
