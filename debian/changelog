@@ -1,3 +1,19 @@
+exodus-eden (1.46.0-1) xenial; urgency=high
+
+  * General: Optimized a number of display and UI/UX performance improvements
+    when Exodus is starting up for the first time.
+  * Wallet: Exodus can now send to native Bitcoin Cash addresses (CashAddr)
+    format. This allows customers to send funds to Coinbase BCH wallets, for
+    example, which now only accept the q-style addresses instead of the legacy
+    format (starting with 1-).
+  * More Ethereum Assets have been added to Settings > Assets.
+  * New supported Ethereum Assets now include: AdToken, Aeron, AirSwap, Amber,
+    AppCoins, Cindicator, Decentraland, Lunyr, Maker, Monaco, Quantstamp,
+    Raiden, Storm, TAAS and Viberate.
+  * Optimized asset logos to improve loading speed and file size.
+
+ -- Doug Barbieri <doug@exodus.io>  Fri, 02 Mar 2018 08:58:50 -0800
+
 exodus-eden (1.45.0-1) xenial; urgency=high
 
   * Wallet: Added Vertcoin (VTC). Upgrade to version 1.45.0, then turn on Vertcoin
