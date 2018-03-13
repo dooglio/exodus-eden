@@ -1,3 +1,10 @@
+exodus-eden (1.47.0-pre-1) xenial; urgency=high
+
+  * Maintenance release.
+  * New unsupported ERC-20 assets.
+
+ -- Doug Barbieri <doug@exodus.io>  Mon, 12 Mar 2018 22:33:24 -0700
+
 exodus-eden (1.46.1-1) xenial; urgency=high
 
   * Corrected Ethereum asset Viberate contract address.
