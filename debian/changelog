@@ -1,4 +1,4 @@
-exodus-eden (1.47.0-2) xenial; urgency=high
+exodus-eden (1.47.0-pre-2) xenial; urgency=high
 
   * General: Added a visual indicator to hide/unhide your password when signing into your
     wallet. This helps users who like to see the password they are typing. Just
