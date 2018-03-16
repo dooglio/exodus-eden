@@ -1,3 +1,30 @@
+exodus-eden (1.47.0-2) xenial; urgency=high
+
+  * General: Added a visual indicator to hide/unhide your password when signing into your
+    wallet. This helps users who like to see the password they are typing. Just
+    be sure no one can see your screen if you use this!
+  * Exchange: Ripio (RCN) has been added. You can now send, receive and exchange Ripio for
+    other Exodus assets. As the official token of the Ripio Credit Network, RCN
+    tokens are “required to access the network and facilitate transactions among
+    all agents.” More information on the project and token can be found on
+    Ripio’s Website.
+  * Wallet: More entries have been added to our ever growing list of Ethereum Assets
+    (also called ERC20 tokens for you tech-heads). Exodus now allows you to send
+    and receive; Bread (BRD), Genesis Vision (GVT), Iconomi (ICN), KuCoin (KCS),
+    MediShares (MDS), Pillar (PLR), Ripio (RCN), Rivetz (RVT), Santiment (SAN),
+    Substratum (SUB), TenX (PAY), and Time New Bank (TNB).
+  * Exodus now supports sending to Bech32 BTC addresses. This is a first step in
+    our effort to add full SegWit support on Exodus for Bitcoin. For those that
+    want to take a deep dive more info can be found on the Bitcoin Wiki.
+  * CashAddr support for BCH has been added. No more pesky address conversion
+    needed. 🙌
+  * We lightened up LTC fees over 3X! They’ve been reduced from 0.0095 to 0.003
+    per transaction.
+  * Backup: We squashed some bugs in the wallet backup process to keep things smooth as
+    silk - adding extra protection to keep your assets safe.
+
+ -- Doug Barbieri <doug@exodus.io>  Fri, 16 Mar 2018 07:53:48 -0700
+
 exodus-eden (1.47.0-pre-1) xenial; urgency=high
 
   * Maintenance release.
