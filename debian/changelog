@@ -1,3 +1,11 @@
+exodus-eden (1.47.1-1) xenial; urgency=high
+
+  * Portfolio: Fixed display issue that could cause the portfolio donut chart to be
+    squashed when over 32 assets are displayed.
+  * Wallet: Fixed display issue with Bitcoin Cash "CashAddr" addresses.
+
+ -- Doug Barbieri <doug@exodus.io>  Sat, 17 Mar 2018 01:32:32 -0700
+
 exodus-eden (1.47.0-pre-2) xenial; urgency=high
 
   * General: Added a visual indicator to hide/unhide your password when signing into your
