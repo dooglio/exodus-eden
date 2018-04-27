@@ -1,3 +1,9 @@
+exodus-eden (1.50.0-1) xenail; urgency=high
+
+  * Eden release 1.50.0
+
+ -- Doug Barbieri <doug@exodus.io>  Fri, 27 Apr 2018 09:15:23 -0700
+
 exodus-eden (1.47.1-1) xenial; urgency=high
 
   * Portfolio: Fixed display issue that could cause the portfolio donut chart to be
