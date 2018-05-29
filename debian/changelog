@@ -1,3 +1,9 @@
+exodus-eden (1.52.1-1) xenial; urgency=high
+
+  * Eden release 1.52.1
+
+ -- Doug Barbieri <doug@exodus.io>  Tue, 29 May 2018 12:51:41 -0700
+
 exodus-eden (1.50.0-2) xenial; urgency=high
 
   * Eden release 1.50.0
