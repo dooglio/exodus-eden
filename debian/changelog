@@ -1,3 +1,15 @@
+exodus-eden (1.54.0-1) xenial; urgency=high
+
+  * Version 1.54.0, in-depth, extended release notes are posted on our Medium
+    blog: https://medium.com/exodus-movement/mithril-major-design-changes-in-exodus-version-1-54-0-ecfea7cce389
+  * General: A number of small app design updates including icon and button styles plus a new theme.
+  * Portfolio: Updated portfolio layout with additional info showing price, market cap and volume.
+  * Wallet: Mithril has been added to the wallet section. You can enable the asset by visiting Settings > Assets.
+  * Fixed a bug for users who upgraded to the latest version from a previous version with legacy Dogecoin
+    transactions.
+
+ -- Doug Barbieri <doug@exodus.io>  Thu, 21 Jun 2018 22:47:39 -0700
+
 exodus-eden (1.52.2-1) xenial; urgency=high
 
   * Eden release 1.52.2
